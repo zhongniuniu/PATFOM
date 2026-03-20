@@ -51,7 +51,7 @@ PATFOM adopts a **dual-domain masked modeling strategy** to enable robust self-s
 ## 📂 Dataset & Pretrained Weights
 
 Test datasets and pretrained weights can be downloaded from:
-👉 [Download Link]
+👉 [(https://pan.baidu.com/s/1vbqeUWwCL1PJUIN4g2uCJQ?pwd=zh32)]
 
 Due to the large scale of the pretraining dataset, full data is not publicly released.
 If needed, please contact us.
@@ -107,6 +107,18 @@ python scripts/PATvasculartest.py \
 --data_dir /public/zhongyutian/PATFOM-main/PAT_Peitai_IV/imgs/ \
 --save_dir ./ACDC_output_IV/ \
 --b 1 --dataset ACDC --fold 0 --tr_size 1 --num_classes 1
+```
+
+4️⃣ Multidimensional segmentation
+```bash
+python scripts/PATsegtrain.py \
+--src_dir /public/zhongyutian/PATFOM-main/PAT_Segmentation \
+--data_dir /public/zhongyutian/PATFOM-main/PAT_Segmentation/imgs/ \
+--save_dir ./ACDC_output_Sge/ \
+--b 1 --dataset ACDC --fold 0 --tr_size 1 --num_classes 1
+```
+```bash
+python scripts/PATSegtest.py
 ```
 
 ## 📖 Citation
