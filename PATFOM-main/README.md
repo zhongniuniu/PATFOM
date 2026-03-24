@@ -53,8 +53,7 @@ PATFOM adopts a **dual-domain masked modeling strategy** to enable robust self-s
 Test datasets and pretrained weights can be downloaded from:
 👉 [(https://pan.baidu.com/s/1vbqeUWwCL1PJUIN4g2uCJQ?pwd=zh32](https://pan.baidu.com/s/1xQlymeZRfEmUHYU_qn4U1Q?pwd=zh32)]
 
-Due to the large scale of the pretraining dataset, full data is not publicly released.
-If needed, please contact us.
+Due to the large scale of the CMM-PAT pretraining dataset, we are in the process of organizing and uploading it for public release. In the meantime, interested researchers may contact us for access.
 
 📧 Contact: ytzhong.smu@qq.com
 
